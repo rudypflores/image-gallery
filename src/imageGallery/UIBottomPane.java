@@ -10,10 +10,13 @@ public class UIBottomPane {
 
     public UIBottomPane(URI filePath) {
         this.filePath = filePath;
-        setupPane();
+
     }
 
     public void setupPane() {
-        hbox.setSpacing(10);
+
+
     }
+
+
 }
