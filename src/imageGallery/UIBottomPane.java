@@ -10,9 +10,13 @@ public class UIBottomPane {
 
     public UIBottomPane(URI filePath) {
         this.filePath = filePath;
+
     }
 
     public void setupPane() {
 
+
     }
+
+
 }
