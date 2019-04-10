@@ -3,7 +3,6 @@ package imageGallery;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
-import javafx.scene.text.Text;
 
 
 public class UIMenu {
@@ -19,15 +18,11 @@ public class UIMenu {
         Menu menuEdit = new Menu("Edit");
 
         //draw sub-options for menu items
-        MenuItem open = new MenuItem("Open");
-        open.setVisible(false);
+        MenuItem itemOpen = new MenuItem("Open ^O");
+        MenuItem itemClose = new MenuItem("Close ^Q");
 
-
-
-
-
-
-
+        //Place on MenuBar
+        menuFile.getItems().addAll(itemOpen, itemClose);
         menuBar.getMenus().addAll(menuFile, menuEdit);
 
         return menuBar; //return the instance
