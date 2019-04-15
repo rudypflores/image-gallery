@@ -4,6 +4,11 @@ import javafx.application.Application;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.MenuBar;
+
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.StackPane;
+
 import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -29,6 +34,13 @@ public class ImageGallery extends Application {
         //Draw the top menu bar
         UIMenu uiMenuBar = new UIMenu();
         MenuBar topMenuBar = uiMenuBar.drawMenuBar();
+
+
+        //draw the image
+        StackPane mid = UIimage.loadImage("https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/06/04134727/Adorable-Cat-PNG.png",0);
+
+        pane.setTop(topMenuBar);
+        pane.setCenter(mid);
 
         // Set up Everything needed for the bottom pane
         UIBottomPane  UIBottom = new UIBottomPane();
