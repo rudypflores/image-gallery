@@ -36,11 +36,11 @@ public class ImageGallery extends Application {
         MenuBar topMenuBar = uiMenuBar.drawMenuBar();
 
 
-        //draw the image
-        StackPane mid = UIimage.loadImage("https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/06/04134727/Adorable-Cat-PNG.png",0);
+        //set up middle
+       // pane.setRight(,0);
+        //pane.setLeft();
 
         pane.setTop(topMenuBar);
-        pane.setCenter(mid);
 
         // Set up Everything needed for the bottom pane
         UIBottomPane  UIBottom = new UIBottomPane();
@@ -60,7 +60,7 @@ public class ImageGallery extends Application {
 
             imageView.setOnMouseClicked(event -> {
 
-                pane.setCenter(centerImageView);
+                pane.setCenter(new UIimage(0).loadImage(centerImageView));
             });
         }
 

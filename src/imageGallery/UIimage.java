@@ -7,16 +7,23 @@ import javafx.scene.layout.StackPane;
 
 public class UIimage
 {
-//    private ImageView img;
-//    private String url;
-//    private StackPane root;
-//    private double degree;
-//
-//    public UIimage(String url, double degree)
-//    {
-//        this.url = url;
-//        this.degree = degree;
-//    }
+
+    private double degree;
+
+    public UIimage(double degree)
+    {
+        this.degree = degree;
+    }
+
+    public StackPane loadImage(ImageView img)
+    {
+        img.setRotate(this.degree);
+
+        StackPane root = new StackPane();
+        root.getChildren().add(img);
+
+        return root;
+    }
 
     public static StackPane loadImage(String url, double degree)
     {
@@ -29,5 +36,10 @@ public class UIimage
         root.getChildren().add(img);
 
         return root;
+    }
+
+    public double getDgree()
+    {
+        return this.degree;
     }
 }
