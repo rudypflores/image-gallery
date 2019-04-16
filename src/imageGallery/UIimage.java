@@ -28,8 +28,8 @@ public class UIimage
     public static StackPane loadImage(String url, double degree)
     {
         ImageView img = new ImageView(new Image(url));
-        img.setFitWidth(500);
-        img.setFitHeight(500);
+        img.setFitWidth(20);
+        img.setFitHeight(20);
         img.setRotate(degree);
 
         StackPane root = new StackPane();

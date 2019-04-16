@@ -37,8 +37,9 @@ public class ImageGallery extends Application {
 
 
         //set up middle
-       // pane.setRight(,0);
-        //pane.setLeft();
+        pane.setRight(UIimage.loadImage("http://www.stickpng.com/assets/images/585e46c3cb11b227491c3377.png",0));
+        pane.setLeft(UIimage.loadImage("http://www.stickpng.com/assets/images/585e46c3cb11b227491c3377.png",180));
+        
 
         pane.setTop(topMenuBar);
 
