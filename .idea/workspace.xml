@@ -4,7 +4,6 @@
     <list default="true" id="8bb28294-3ce0-4572-bd1b-e1bd1a5914bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIimage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIimage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/UIimage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/UIimage.java" afterDir="false" />
     </list>
@@ -23,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state relative-caret-position="918">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="47" />
+            <state>
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -50,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
@@ -83,8 +82,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="73" />
+    <option name="x" value="238" />
+    <option name="y" value="85" />
     <option name="width" value="1508" />
     <option name="height" value="853" />
   </component>
@@ -96,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -180,15 +179,16 @@
       <workItem from="1554917400029" duration="1020000" />
       <workItem from="1555368379173" duration="3654000" />
       <workItem from="1555386817066" duration="7525000" />
-      <workItem from="1555445185984" duration="920000" />
+      <workItem from="1555445185984" duration="1030000" />
+      <workItem from="1555612218679" duration="1671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17303000" />
+    <option name="totallyTimeSpent" value="19084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="399" y="73" width="1508" height="853" extended-state="0" />
+    <frame x="238" y="85" width="1508" height="853" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -197,7 +197,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16160221" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16367403" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16666667" />
@@ -250,15 +250,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="47" />
+        <state>
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
@@ -268,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        <state relative-caret-position="918">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
         </state>
       </provider>
     </entry>

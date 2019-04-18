@@ -22,6 +22,7 @@ public class ImageGallery extends Application {
 
     BorderPane pane = new BorderPane();
     Scene scene = new Scene(pane, 1280, 720);
+    UIimage uimg = new UIimage(0);
     private int currentIndex = 0;
 
 
@@ -45,6 +46,7 @@ public class ImageGallery extends Application {
         scrollPane.setFitToHeight(true);
         List<Node> list = hbox.getChildren();
 
+
         // add event listeners for each image
         int i=0;
         for (Node n: list) {
@@ -57,7 +59,7 @@ public class ImageGallery extends Application {
 
             final int a = i;
             imageView.setOnMouseClicked(event -> {
-                pane.setCenter(new UIimage(0).loadImage(centerImageView));
+                pane.setCenter(uimg.loadImage(centerImageView));
                 this.currentIndex = a;
             });
             i++;
@@ -67,18 +69,21 @@ public class ImageGallery extends Application {
         pane.setRight(UIimage.loadArrow("http://www.stickpng.com/assets/images/585e46c3cb11b227491c3377.png",0));
         pane.setLeft(UIimage.loadArrow("http://www.stickpng.com/assets/images/585e46c3cb11b227491c3377.png",180));
 
+        //init when load in new folder
+        pane.setCenter(uimg.switchImage((ImageView)list.get(0)));
+
         //set up eventHandler for right and left
         StackPane right = (StackPane) pane.getRight();
         StackPane left = (StackPane) pane.getLeft();
         right.setOnMouseClicked(v -> {
             int index = (this.currentIndex + 1) % list.size();
-             pane.setCenter(new UIimage(0).switchImage((ImageView) list.get(index)));
+             pane.setCenter(uimg.switchImage((ImageView) list.get(index)));
              this.currentIndex = index;
         });
         left.setOnMouseClicked(v -> {
             int index = (this.currentIndex - 1) % list.size();
             index = (index < 0) ? list.size()-1 : index;
-            pane.setCenter(new UIimage(0).switchImage((ImageView) list.get(index)));
+            pane.setCenter(uimg.switchImage((ImageView) list.get(index)));
             this.currentIndex = index;
         });
 
