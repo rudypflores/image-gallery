@@ -44,12 +44,12 @@ public class UIMenu {
 
     //Handle when the rotate left item is clicked
     private void handleClickRotateLeft() {
-        this.img.rotateImage(-90);
+        this.img.rotateImage(this.img.getDgree()-90);
     }
 
     //Handle when the rotate right item is clicked
     private void handleClickRotateRight() {
-        this.img.rotateImage(90);
+        this.img.rotateImage(this.img.getDgree()+90);
     }
 
     //Listen for key combinations and match with its right action

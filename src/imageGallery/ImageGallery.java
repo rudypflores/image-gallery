@@ -43,6 +43,7 @@ public class ImageGallery extends Application {
             uiMenuBar.onShortcutPressed(e);
         });
 
+        //Add menu to the top of the pane
         pane.setTop(topMenuBar);
 
         // Set up Everything needed for the bottom pane
@@ -51,7 +52,6 @@ public class ImageGallery extends Application {
         ScrollPane scrollPane = new ScrollPane(hbox);
         scrollPane.setFitToHeight(true);
         List<Node> list = hbox.getChildren();
-
 
         // add event listeners for each image
         int i=0;
@@ -67,6 +67,7 @@ public class ImageGallery extends Application {
             imageView.setOnMouseClicked(event -> {
                 pane.setCenter(uimg.loadImage(centerImageView));
                 this.currentIndex = a;
+                uimg.rotateImage(0);
             });
             i++;
         }
@@ -85,12 +86,14 @@ public class ImageGallery extends Application {
             int index = (this.currentIndex + 1) % list.size();
              pane.setCenter(uimg.switchImage((ImageView) list.get(index)));
              this.currentIndex = index;
+             uimg.rotateImage(0);
         });
         left.setOnMouseClicked(v -> {
             int index = (this.currentIndex - 1) % list.size();
             index = (index < 0) ? list.size()-1 : index;
             pane.setCenter(uimg.switchImage((ImageView) list.get(index)));
             this.currentIndex = index;
+            uimg.rotateImage(0);
         });
 
         pane.setTop(topMenuBar);

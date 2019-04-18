@@ -44,6 +44,7 @@ public class UIimage
     public void rotateImage(double degree)
     {
         this.currentImg.setRotate(degree);
+        this.degree = degree;
 
     }
 
@@ -68,6 +69,10 @@ public class UIimage
     public double getDgree()
     {
         return this.degree;
+    }
+
+    public void setDgree(Double degree) {
+        this.degree = degree;
     }
 
     public int getI()
