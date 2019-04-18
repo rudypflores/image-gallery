@@ -1,6 +1,5 @@
 package imageGallery;
 
-import javafx.scene.Scene;
 import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
@@ -10,24 +9,29 @@ import javafx.scene.input.KeyCombination;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.DirectoryChooser;
 import javafx.stage.Stage;
-
-import java.beans.EventHandler;
 import java.io.File;
 
 
 public class UIMenu {
 
-    private String directory = null;
-    private Stage stage = null;
+    private String directory ;
+    private Stage stage;
+    private UIimage img;
     private KeyCombination ctrlO = new KeyCodeCombination(KeyCode.O, KeyCombination.CONTROL_DOWN);
     private KeyCombination ctrlQ = new KeyCodeCombination(KeyCode.Q, KeyCombination.CONTROL_DOWN);
     private KeyCombination ctrlL = new KeyCodeCombination(KeyCode.L, KeyCombination.CONTROL_DOWN);
     private KeyCombination ctrlR = new KeyCodeCombination(KeyCode.R, KeyCombination.CONTROL_DOWN);
 
+    //Main initializer
+    public UIMenu(Stage stage, UIimage img) {
+        this.stage = stage;
+        this.img = img;
+    }
+
     //Handle when open is clicked
-    private void handleClickOpen(Stage stage) {
+    private void handleClickOpen() {
         DirectoryChooser directoryChooser = new DirectoryChooser();
-        File selectedDirectory = directoryChooser.showDialog(stage);
+        File selectedDirectory = directoryChooser.showDialog(this.stage);
 
         if(selectedDirectory == null) {
             System.out.println("No directory was chosen.");
@@ -40,20 +44,23 @@ public class UIMenu {
 
     //Handle when the rotate left item is clicked
     private void handleClickRotateLeft() {
-        System.out.println("The image has been rotated left");
+        this.img.rotateImage(-90);
     }
 
     //Handle when the rotate right item is clicked
     private void handleClickRotateRight() {
-        System.out.println("The image has been rotated right");
+        this.img.rotateImage(90);
     }
 
     //Listen for key combinations and match with its right action
     public void onShortcutPressed(KeyEvent e) {
+
+        //Handle the open shortcut
         if(ctrlO.match(e)) {
-            this.handleClickOpen(stage);
+            this.handleClickOpen();
         }
 
+        //Handle the exit shortcut
         if(ctrlQ.match(e)) {
             System.exit(0);
         }
@@ -69,9 +76,7 @@ public class UIMenu {
     }
 
     //Draws an instance of the menu bar on top of the scene
-    public MenuBar drawMenuBar(Stage stage) {
-
-        this.stage = stage;
+    public MenuBar drawMenuBar() {
 
         //Draw menu bar
         MenuBar menuBar = new MenuBar();
@@ -83,7 +88,7 @@ public class UIMenu {
         //draw sub-options for file
         MenuItem itemOpen = new MenuItem("Open ^O");
         itemOpen.setOnAction(e -> {
-            this.handleClickOpen(stage);
+            this.handleClickOpen();
         });
 
         //Close program when event is triggered

@@ -35,8 +35,8 @@ public class ImageGallery extends Application {
     public void start(Stage primaryStage) {
 
         //Draw the top menu bar
-        UIMenu uiMenuBar = new UIMenu();
-        MenuBar topMenuBar = uiMenuBar.drawMenuBar(primaryStage);
+        UIMenu uiMenuBar = new UIMenu(primaryStage, uimg);
+        MenuBar topMenuBar = uiMenuBar.drawMenuBar();
 
         //Listen for a key combination
         scene.setOnKeyPressed(e -> {
@@ -92,8 +92,6 @@ public class ImageGallery extends Application {
             pane.setCenter(uimg.switchImage((ImageView) list.get(index)));
             this.currentIndex = index;
         });
-
-
 
         pane.setTop(topMenuBar);
         pane.setBottom(scrollPane);

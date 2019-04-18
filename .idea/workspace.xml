@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb28294-3ce0-4572-bd1b-e1bd1a5914bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/out/production/image-gallery/META-INF/image-gallery.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/imageGallery/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/UIMenu.java" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/UIimage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/UIimage.java" afterDir="false" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,68 +19,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="918">
-              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="286">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="148">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
               </folding>
-=======
-            <state relative-caret-position="229">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
->>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state>
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="258">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-            <state relative-caret-position="255">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="47" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
->>>>>>> master
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="896">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="506">
+              <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1617#1618#0" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
                 <element signature="e#1474#1475#0" expanded="true" />
                 <element signature="e#1495#1496#0" expanded="true" />
-                <element signature="e#3764#3765#0" expanded="true" />
+                <element signature="e#3801#3802#0" expanded="true" />
               </folding>
-=======
-            <state relative-caret-position="136">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
             </state>
           </provider>
         </entry>
@@ -96,22 +53,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="204">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
-=======
-<<<<<<< HEAD
-            <state relative-caret-position="368">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-=======
-            <state relative-caret-position="229">
-              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
->>>>>>> master
+            <state relative-caret-position="902">
+              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1526#1527#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1589#1590#0" expanded="true" />
               </folding>
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,18 +103,11 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-=======
   <component name="ProjectFrameBounds">
     <option name="x" value="238" />
     <option name="y" value="85" />
     <option name="width" value="1508" />
     <option name="height" value="853" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -170,8 +128,6 @@
             <path>
               <item name="image-gallery" type="b2602c69:ProjectViewProjectNode" />
               <item name="image-gallery" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,7 +138,6 @@
             <path>
               <item name="image-gallery" type="b2602c69:ProjectViewProjectNode" />
               <item name="image-gallery" type="462c0819:PsiDirectoryNode" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,11 +150,8 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
       <pane id="Scope" />
->>>>>>> master
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -251,42 +203,26 @@
       <updated>1554764341947</updated>
       <workItem from="1554764343275" duration="3567000" />
       <workItem from="1554917400029" duration="1020000" />
-<<<<<<< HEAD
-      <workItem from="1555359461700" duration="544000" />
-      <workItem from="1555368192010" duration="3616000" />
-      <workItem from="1555611753027" duration="2224000" />
-=======
       <workItem from="1555368379173" duration="3654000" />
       <workItem from="1555386817066" duration="7525000" />
-<<<<<<< HEAD
-      <workItem from="1555445185984" duration="1030000" />
-      <workItem from="1555612218679" duration="1671000" />
-=======
       <workItem from="1555445185984" duration="920000" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
->>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="19084000" />
+    <option name="totallyTimeSpent" value="17358000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="238" y="85" width="1508" height="853" extended-state="0" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="11320000" />
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="17303000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="399" y="73" width="1508" height="853" extended-state="0" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
->>>>>>> master
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -295,29 +231,17 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16367403" />
-=======
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="6" weight="0.5131291" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16793066" />
-=======
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16160221" />
->>>>>>> master
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16666667" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16576381" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32916668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,34 +266,6 @@
     <entry file="file://$PROJECT_DIR$/arrow/images.jpg" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/image/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="368">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageGallery/UIMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1474#1475#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#3764#3765#0" expanded="true" />
-=======
         <state relative-caret-position="237">
           <caret line="619" column="13" selection-start-line="619" selection-start-column="13" selection-end-line="619" selection-end-column="13" />
         </state>
@@ -378,49 +274,64 @@
     <entry file="file://$PROJECT_DIR$/arrow/image.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/imageGallery/UIMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="858">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="902">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5185">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="918">
-          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="286">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="148">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
           </folding>
-=======
-        <state relative-caret-position="229">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
->>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
->>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/imageGallery/UIMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#3801#3802#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

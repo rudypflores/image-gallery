@@ -61,6 +61,10 @@ public class UIimage
         return root;
     }
 
+    public ImageView getCurrentImg() {
+        return currentImg;
+    }
+
     public double getDgree()
     {
         return this.degree;
