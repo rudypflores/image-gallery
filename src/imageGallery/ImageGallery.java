@@ -11,6 +11,7 @@ import javafx.scene.layout.*;
 
 import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
+import javafx.scene.layout.HBox;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
@@ -35,7 +36,12 @@ public class ImageGallery extends Application {
 
         //Draw the top menu bar
         UIMenu uiMenuBar = new UIMenu();
-        MenuBar topMenuBar = uiMenuBar.drawMenuBar();
+        MenuBar topMenuBar = uiMenuBar.drawMenuBar(primaryStage);
+
+        //Listen for a key combination
+        scene.setOnKeyPressed(e -> {
+            uiMenuBar.onShortcutPressed(e);
+        });
 
         pane.setTop(topMenuBar);
 
