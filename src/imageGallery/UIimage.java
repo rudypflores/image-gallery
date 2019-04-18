@@ -11,6 +11,7 @@ public class UIimage
 {
     private int i;
     private double degree;
+    private ImageView currentImg;
 
     public UIimage(double degree)
     {
@@ -19,6 +20,7 @@ public class UIimage
 
     public StackPane loadImage(ImageView img)
     {
+        this.currentImg = img;
         img.setRotate(this.degree);
 
         StackPane root = new StackPane();
@@ -39,6 +41,11 @@ public class UIimage
         return this.loadImage(centerImageView);
     }
 
+    public void rotateImage(double degree)
+    {
+        this.currentImg.setRotate(degree);
+
+    }
 
     public static StackPane loadArrow(String url, double degree)
     {

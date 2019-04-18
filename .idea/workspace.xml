@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/src/imageGallery/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/UIMenu.java" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/ImageGallery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIimage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/image-gallery/imageGallery/UIimage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/ImageGallery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/imageGallery/UIimage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/imageGallery/UIimage.java" afterDir="false" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
@@ -32,6 +31,10 @@
         <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="918">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+=======
+<<<<<<< HEAD
             <state relative-caret-position="286">
               <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
@@ -41,6 +44,7 @@
             <state relative-caret-position="229">
               <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -48,6 +52,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state>
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+=======
 <<<<<<< HEAD
             <state relative-caret-position="258">
               <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
@@ -58,6 +66,7 @@
             <state relative-caret-position="255">
               <caret line="38" column="47" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="47" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -88,11 +97,16 @@
         <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="204">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
+=======
+<<<<<<< HEAD
             <state relative-caret-position="368">
               <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
 =======
             <state relative-caret-position="229">
               <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+>>>>>>> master
               <folding>
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
@@ -131,8 +145,8 @@
     <option name="height" value="1047" />
 =======
   <component name="ProjectFrameBounds">
-    <option name="x" value="399" />
-    <option name="y" value="73" />
+    <option name="x" value="238" />
+    <option name="y" value="85" />
     <option name="width" value="1508" />
     <option name="height" value="853" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
@@ -145,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,8 +195,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
       <pane id="PackagesPane" />
       <pane id="Scope" />
+>>>>>>> master
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -240,12 +258,23 @@
 =======
       <workItem from="1555368379173" duration="3654000" />
       <workItem from="1555386817066" duration="7525000" />
+<<<<<<< HEAD
+      <workItem from="1555445185984" duration="1030000" />
+      <workItem from="1555612218679" duration="1671000" />
+=======
       <workItem from="1555445185984" duration="920000" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="19084000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="238" y="85" width="1508" height="853" extended-state="0" />
+=======
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="11320000" />
   </component>
@@ -257,6 +286,7 @@
   <component name="ToolWindowManager">
     <frame x="399" y="73" width="1508" height="853" extended-state="0" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+>>>>>>> master
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -266,12 +296,16 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
 <<<<<<< HEAD
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16367403" />
+=======
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="6" weight="0.5131291" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16793066" />
 =======
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16160221" />
+>>>>>>> master
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16666667" />
@@ -353,15 +387,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIBottomPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="47" />
+        <state>
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/imageGallery/UIimage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
@@ -373,6 +407,10 @@
     <entry file="file://$PROJECT_DIR$/src/imageGallery/ImageGallery.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+        <state relative-caret-position="918">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+=======
+<<<<<<< HEAD
         <state relative-caret-position="286">
           <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
           <folding>
@@ -382,6 +420,7 @@
         <state relative-caret-position="229">
           <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
 >>>>>>> 73be33708fe6af1fe7f47c39677ca7713e727429
+>>>>>>> master
         </state>
       </provider>
     </entry>
